@@ -1,0 +1,175 @@
+.slick-initialized .slick-slide {
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 10rem;
+  text-align: center;
+}
+
+.main-container {
+  width: 100%;
+  margin-top: 13.6rem;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.rating-title {
+  line-height: 5.6rem;
+  text-align: center;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #272e35;
+  width: 20%;
+}
+
+.button-container {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13.6rem;
+}
+
+.left-arrow {
+  margin-right: 2.4rem;
+}
+
+.review-text {
+  font-family: "poppins";
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #272e35;
+}
+
+.rating {
+  margin-top: 3.2rem;
+}
+
+.writer-name {
+  font-family: "poppins";
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #272e35;
+  margin-bottom: 0.4rem;
+}
+
+.writer-status {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #757575;
+}
+
+.writer-name-container {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.next-arrow {
+  height: 2rem;
+}
+
+.custom-arrow-color {
+  font-size: 4rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.dark-arrow {
+  color: #272e35;
+}
+
+.light-color {
+  color: #6e757c;
+}
+
+@media (max-width: 1622px) {
+  .rating-title {
+    font-size: 4.8rem;
+    width: 30%;
+  }
+}
+
+@media (max-width: 84em) {
+  .rating-title {
+    font-size: 3.6rem;
+    width: 25%;
+  }
+  .review-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 76em) {
+  .rating-title {
+    font-size: 3.6rem;
+    width: 25%;
+  }
+  .button-container {
+    margin-top: 1.6rem;
+  }
+  .writer-name {
+    font-size: 1.2rem;
+  }
+  .writer-status {
+    font-size: 1rem;
+  }
+  .review-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 69em) {
+  .main-container {
+    width: 80%;
+  }
+  .rating-title {
+    width: 40%;
+  }
+}
+
+@media (max-width: 59em) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 51em) {
+  .main-container {
+    width: 100%;
+  }
+  .rating-title {
+    width: 50%;
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 41em) {
+  .rating-title {
+    width: 40%;
+    font-size: 2.2rem;
+    line-height: 4rem;
+  }
+  .button-container {
+    margin-top: 0rem;
+  }
+  .main-heading {
+    margin-bottom: 1rem;
+  }
+  .main-container {
+    margin-top: 8rem;
+    width: 100%;
+  }
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

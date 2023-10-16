@@ -1,0 +1,112 @@
+.download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7.2rem;
+}
+
+.use-solo {
+  font-family: "inter";
+  font-size: 1.2rem;
+  color: #748fb5;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+}
+
+.download-solo {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 7.2rem;
+  color: #272e35;
+  margin-bottom: 1.6rem;
+}
+
+.download-description {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.description-gray {
+  color: #6e757c;
+}
+
+.download-description a {
+  color: #ff6e30;
+  text-decoration: none;
+}
+
+.get-button {
+  margin-bottom: 7.4rem;
+}
+
+.download-img {
+  height: 72.6rem;
+  width: 104.7rem;
+}
+
+@media (max-width: 84em) {
+  .download-solo {
+    font-size: 6.4rem;
+  }
+
+  .download-img {
+    height: 64rem;
+    width: 80rem;
+  }
+
+  .get-button {
+    margin-bottom: 5.2rem;
+  }
+
+  .download-description {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .download-img {
+    height: 32rem;
+    width: 48rem;
+  }
+
+  .download-solo {
+    font-size: 4.4rem;
+  }
+
+  .download-description {
+    font-size: 1.2rem;
+  }
+
+  .get-button {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 29em) {
+  .download-img {
+    height: 24rem;
+    width: 32rem;
+  }
+
+  .download-solo {
+    font-size: 3.6rem;
+  }
+
+  .download-description {
+    font-size: 0.8rem;
+  }
+
+  .get-button {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

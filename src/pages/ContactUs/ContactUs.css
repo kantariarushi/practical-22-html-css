@@ -1,0 +1,115 @@
+.contact-us-main-container {
+  display: flex;
+  margin-top: 11.9rem;
+  justify-content: space-between;
+  padding-right: 15rem;
+}
+
+.form-container {
+  margin-top: 8rem;
+}
+
+.form-container h1 {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #272e35;
+}
+.form-container span {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #6e757c;
+  margin-top: 1.2rem;
+}
+
+.form-field-container {
+  margin-top: 4.8rem;
+}
+
+.form-field-container label {
+  font-size: 1.6rem;
+  font-family: "inter";
+  font-weight: 500;
+  color: #6a7986;
+}
+
+.form-field-container input {
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+  height: 6.4rem;
+  width: 40.5rem;
+  border-radius: 1.6rem;
+  padding: 20px;
+  border: 0;
+}
+
+.form-field-container input::placeholder {
+  color: #6e757c; /* Change the color of the placeholder text */
+  font-family: "inter";
+  font-size: 1.6rem; /* Set the font size of the placeholder text */
+  font-weight: 600;
+}
+
+.form-field-container textarea::placeholder {
+  color: #6e757c; /* Change the color of the placeholder text */
+  font-family: "inter";
+  font-size: 1.6rem; /* Set the font size of the placeholder text */
+  font-weight: 600;
+}
+
+.form-field-container textarea {
+  margin-top: 1.6rem;
+  margin-bottom: 4.8rem;
+  width: 40.5rem;
+  border-radius: 1.6rem;
+  padding: 20px;
+  border: 0;
+}
+
+@media (max-width: 84em) {
+  .contact-us-main-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .contact-us-main-container img {
+    height: 50rem;
+    width: 50rem;
+  }
+  .form-container h1 {
+    font-size: 3.6rem;
+  }
+  .form-container span {
+    font-size: 1.2rem;
+  }
+  .form-field-container label {
+    font-size: 1.2rem;
+  }
+  .form-field-container input {
+    height: 4.8rem;
+    width: 35rem;
+    border-radius: 1.4rem;
+    padding: 20px;
+    border: 0;
+  }
+  .form-field-container textarea {
+    width: 35rem;
+    border-radius: 1.4rem;
+    padding: 20px;
+    border: 0;
+  }
+  .form-field-container input::placeholder {
+    font-size: 1.4rem;
+  }
+  .form-field-container textarea::placeholder {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 75em) {
+  .contact-us-main-container {
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
+}

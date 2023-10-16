@@ -1,0 +1,145 @@
+.another-devices-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11rem;
+}
+
+.main-heading {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 4rem;
+  color: #272e35;
+  margin-bottom: 8rem;
+}
+
+.different-os-container {
+  margin-top: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.os-box {
+  display: flex;
+  flex-direction: column;
+  border-right: 4px solid rgba(116, 143, 181, 0.2);
+  /* background-color: yellow; */
+  /* height: 24rem;
+  width: 22.4rem; */
+  padding: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.os-box:last-child {
+  border-right: 4px solid transparent;
+}
+
+.os-box:hover {
+  border-right: 0px solid transparent;
+  background-color: white;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.1rem;
+  transform: scale(1.1);
+}
+
+.devise-heading {
+  margin-top: 2.4rem;
+  margin-bottom: 0.4rem;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #272e35;
+}
+
+.os-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "inter";
+  color: #6e757c;
+}
+
+@media (max-width: 84em) {
+  .main-heading {
+    font-size: 3.6rem;
+  }
+  .another-devices-container {
+    margin-top: 9.6rem;
+  }
+  .different-os-container {
+    margin-top: 4.8rem;
+  }
+}
+
+@media (max-width: 64em) and (min-width: 41em) {
+  .different-os-container {
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 5rem;
+  }
+
+  .devise-heading {
+    font-size: 1.6rem;
+  }
+
+  .os-box:first-child {
+    grid-column: 1/4;
+  }
+
+  .os-box:nth-child(2) {
+    grid-column: 4/7;
+    border-right: 4px solid transparent;
+  }
+  .os-box:nth-child(3) {
+    grid-column: -7/-5;
+  }
+  .os-box:nth-child(4) {
+    grid-column: -5/-3;
+  }
+  .os-box:nth-child(5) {
+    grid-column: -3/-1;
+  }
+}
+
+@media (max-width: 41em) {
+  .another-devices-container {
+    margin-top: 6.4rem;
+  }
+  .different-os-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+  }
+  .main-heading {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .devise-heading {
+    font-size: 1.2rem;
+  }
+  .different-os-container {
+    margin-top: 2.4rem;
+  }
+  .os-name {
+    font-size: 0.8rem;
+  }
+  .os-box {
+    padding: 3rem 1rem;
+  }
+  .os-box:nth-child(2) {
+    border-right: 4px solid transparent;
+  }
+  .os-box:nth-child(4) {
+    border-right: 4px solid transparent;
+  }
+  .os-box:last-child {
+    grid-column: -3/-1;
+  }
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

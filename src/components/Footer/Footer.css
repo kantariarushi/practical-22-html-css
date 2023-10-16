@@ -1,0 +1,129 @@
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  right: 0;
+  width: 100%;
+}
+
+.main-nav-container {
+  width: 100%;
+}
+
+.footer-logo {
+  height: 5.6rem;
+  right: 0;
+  margin-left: -5rem;
+}
+
+.join-people {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #6e757c;
+  width: 28%;
+}
+
+.nav-container {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.store-image {
+  width: 16.7rem;
+  height: 5.6rem;
+}
+
+.store-image:first-child {
+  margin-right: 1.2rem;
+}
+
+.divider {
+  width: 100%;
+  border: 2px solid rgba(116, 143, 181, 0.2);
+  margin-top: 5.6rem;
+}
+
+.copyright-container {
+  margin-top: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.copyright {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #6e757c;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.social-icons {
+  font-size: 1.8rem;
+  color: #6e757c;
+}
+
+@media (max-width: 75em) {
+  .main-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .join-people {
+    width: 100%;
+  }
+  .nav-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 45em) {
+  .main-nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .join-people {
+    width: 80%;
+    text-align: center;
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .store-image {
+    width: 12.8rem;
+    height: 4.8rem;
+  }
+}
